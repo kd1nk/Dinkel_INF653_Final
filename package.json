@@ -1,0 +1,35 @@
+{
+  "name": "dinkel_inf653_final",
+  "version": "1.0.0",
+  "description": "Final project for INF 653 VD Back-End Web Development utilizing Node.js REST API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kd1nk/Dinkel_INF653_Final.git"
+  },
+  "author": "Kacy Dinkel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kd1nk/Dinkel_INF653_Final/issues"
+  },
+  "homepage": "https://github.com/kd1nk/Dinkel_INF653_Final#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "mongoose": "^8.14.3",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": "^16.0.0"
+  },
+  "keywords": []
+}
